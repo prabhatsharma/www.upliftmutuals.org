@@ -417,7 +417,7 @@ section {
 ********Section*******
 **************************/
 
-.section_1, .section_2{
+.section_1, .section_2, .section_3{
   height: 100vh;
   background-position: left top;
   background-repeat: no-repeat;
@@ -425,25 +425,31 @@ section {
   position: relative;
 }
 
-.section_2{
+.section_2, .section_3{
   background-position: right top;
 }
 
-.section_3{
+/* .section_3{
   height: 100vh;
   width: 100%;
   background-color: #fff;
   padding: 80px 0;
-}
+} */
 
 .section_1{background-image: url(../images/section1.jpg);}
 
-.section_2{background-image: url(../images/section2.jpg);}
+.section_2{background-image: url(../images/section2.jpg); background-size:100%; }
 
-.section_content{
+.section_3{background-image: url(../images/section3.jpg);}
+
+.section_content, .section_content2{
   position: absolute;
-    top: 55%;
+    top: 60%;
     left: 40px;
+}
+
+.section_content2{
+  top: 70%;
 }
 
 .caption1, .caption2 {
@@ -460,6 +466,12 @@ section {
   font-weight: 700;
   margin: 0 0 10px 0;
   padding: 0;
+}
+
+.caption1 h1 span, .caption2 h1 span{
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .section3_content h1{color:#000;}
@@ -757,6 +769,12 @@ section {
     margin-top: 0;
 }
 
+.inner-heading span{
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 .inner-title{
   font-size: 22px;
     font-weight: bold;
@@ -797,7 +815,8 @@ section {
 
 .member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
 .member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
-.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22{
+.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
+.member-pic24, .member-pic25{
   background-repeat: no-repeat;
   top: 0;
   left: 0;
@@ -834,21 +853,22 @@ section {
 .member-pic20 {background-image: url(../images/member-20.jpg);}
 .member-pic21 {background-image: url(../images/member-21.jpg);}
 .member-pic22 {background-image: url(../images/member-22.jpg);}
+.member-pic23 {background-image: url(../images/member-23.jpg);}
+.member-pic24 {background-image: url(../images/member-24.jpg);}
+.member-pic25 {background-image: url(../images/member-25.jpg);}
 
+.team-members:hover > .member-pic10 {background-image: url(../images/member-10-1.jpg);}
+.team-members:hover > .member-pic12 {background-image: url(../images/member-12-1.jpg);}
+.team-members:hover > .member-pic13 {background-image: url(../images/member-13-1.jpg);}
 .team-members2:hover > .member-pic14 {background-image: url(../images/member-14-1.jpg);}
+.team-members:hover > .member-pic15 {background-image: url(../images/member-15-1.jpg);}
 .team-members2:hover > .member-pic16 {background-image: url(../images/member-16-1.jpg);}
+.team-members2:hover > .member-pic17 {background-image: url(../images/member-17-1.jpg);}
 .team-members2:hover > .member-pic19 {background-image: url(../images/member-19-1.jpg);}
 .team-members2:hover > .member-pic20 {background-image: url(../images/member-20-1.jpg);}
 .team-members2:hover > .member-pic21 {background-image: url(../images/member-21-1.jpg);}
 .team-members2:hover > .member-pic22 {background-image: url(../images/member-22-1.jpg);}
-/*.team-members:hover > .member-pic7 {background-image: url(../images/member-07-1.jpg);}
-.team-members:hover > .member-pic8 {background-image: url(../images/member-08-1.jpg);}
-.team-members:hover > .member-pic9 {background-image: url(../images/member-09-1.jpg);}
-.team-members:hover > .member-pic10 {background-image: url(../images/member-10-1.jpg);}
-.team-members:hover > .member-pic11 {background-image: url(../images/member-11-1.jpg);}
-.team-members:hover > .member-pic12 {background-image: url(../images/member-12-1.jpg);}
-.team-members:hover > .member-pic13 {background-image: url(../images/member-13-1.jpg);}
-.team-members:hover > .member-pic14 {background-image: url(../images/member-14-1.jpg);} */
+.team-members:hover > .member-pic23 {background-image: url(../images/member-23-1.jpg);}
 
 .member-name{
   padding: 10px 20px;
