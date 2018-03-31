@@ -419,7 +419,7 @@ section {
 
 .section_1, .section_2, .section_3{
   height: 100vh;
-  background-position: left top;
+  background-position: right top;
   background-repeat: no-repeat;
   width: 100%;
   position: relative;
@@ -685,12 +685,12 @@ section {
 }
 
 .phase2 {
-  margin-top: 30%;
+  margin-top: 35%;
   margin-bottom: 100px;
 }
 
 .phase3 {
-  margin-top: -25%;
+  margin-top: -10%;
   margin-bottom: 100px;
 }
 
@@ -710,7 +710,8 @@ section {
 }
 
 .process-left p, .process-right p{
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 18px;
   color: #232526;
 }
 
@@ -792,6 +793,14 @@ section {
 ********our team CSS******
 **************************/
 
+.col-sm-20{
+  width: 19%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
 .team-members, .team-members2{
   width: 100%;
   background-color: #f5f8fa;
@@ -803,6 +812,7 @@ section {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  /* min-height: 296px; */
 }
 
 .team-members2{
@@ -816,12 +826,12 @@ section {
 .member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
 .member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
 .member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
-.member-pic24, .member-pic25{
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30{
   background-repeat: no-repeat;
   top: 0;
   left: 0;
   width: 100%;
-  height: 265px;
+  height: 204px;
   background-size: 100%;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -856,6 +866,10 @@ section {
 .member-pic23 {background-image: url(../images/member-23.jpg);}
 .member-pic24 {background-image: url(../images/member-24.jpg);}
 .member-pic25 {background-image: url(../images/member-25.jpg);}
+.member-pic26 {background-image: url(../images/member-26.jpg);}
+.member-pic28 {background-image: url(../images/member-28.jpg);}
+.member-pic29 {background-image: url(../images/member-29.jpg);}
+.member-pic30 {background-image: url(../images/member-30.jpg);}
 
 .team-members:hover > .member-pic10 {background-image: url(../images/member-10-1.jpg);}
 .team-members:hover > .member-pic12 {background-image: url(../images/member-12-1.jpg);}
@@ -869,11 +883,13 @@ section {
 .team-members2:hover > .member-pic21 {background-image: url(../images/member-21-1.jpg);}
 .team-members2:hover > .member-pic22 {background-image: url(../images/member-22-1.jpg);}
 .team-members:hover > .member-pic23 {background-image: url(../images/member-23-1.jpg);}
+.team-members2:hover > .member-pic26 {background-image: url(../images/member-26-1.jpg);}
 
 .member-name{
-  padding: 10px 20px;
+  padding: 10px 10px;
   width: 100%;
   color: #585f62;
+  line-height: 16px;
 }
 
 .team-members:hover > .member-name b, .team-members2:hover > .member-name b{
@@ -881,11 +897,75 @@ section {
 }
 
 .member-name b{
-  font-size: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.member-name span{
+  font-size: 12px;
 }
 
 .margin-bottom-25{
   margin-bottom: 25px;
+}
+
+/*************************
+********performance CSS****
+**************************/
+
+.attributes {
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.attributes span {
+    position: absolute !important;
+    color: #fff;
+    top: 20px;
+    left: 30px;
+    font-size: 14px;
+    width: 80%;
+}
+
+.attributes-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    display: block;
+    color: #fff;
+    margin: 0;
+}
+
+.testimonials{
+  margin-bottom: 30px;
+}
+
+.inner-testimonials img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.test-Title{
+  color: #017fb5;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.test-bg{
+  background-color: #f5f8fa;
+  padding: 30px;
+  position: relative;
+}
+
+.test-arrow{
+  position: absolute;
+  top: 30px;
+  left: -12px;
+  font-size: 36px;
+  color: #f5f8fa;
+  display: block;
 }
 
 /*************************
@@ -950,16 +1030,27 @@ section {
 @media screen and (min-width:0px) and (max-width:767px){
 
 .navbar-brand img {
-  width: 160px;
+  width: 130px;
+}
+
+.header_social a span {
+    font-size: 24px;
+    margin-right: 5px;
 }
 
 .navbar-brand {
     padding: 10px 15px !important;
 }
 
+.header_social {
+    top: 24px;
+    right: 68px;
+    padding-right: 10px;
+}
+
 .right_menu, .closebtn {
     right: 15px;
-    top: 20px;
+    top: 18px;
     width: 38px;
     height: 38px;
     padding: 9px 6px;
@@ -1040,7 +1131,7 @@ section {
 }
 
 .innerPages{
-  margin-top: 82px;
+  margin-top: 72px;
 }
 
 .h-line2, .v-line2{
@@ -1055,13 +1146,122 @@ section {
   display: none;
 }
 
-.team-members {
-    padding: 20px 40px;
-    margin-bottom: 20px;
+.col-sm-20{
+  width: 49%;
+}
+
+.member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
+.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
+.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30 {
+    height: 160px;
+}
+
+.team-members, .team-members2 {
+    padding: 15px 15px;
 }
 
 .member-name {
-    padding: 10px 20px 0;
+    padding: 5px 5px;
+    line-height: 14px;
+}
+
+.member-name b {
+    font-size: 12px;
+}
+
+.member-name span {
+    font-size: 10px;
+}
+
+.inner-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d3032;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.nav-tabs>li>a {
+    margin-right: 1px;
+    border-radius: 4px 4px 0 0;
+    padding: 5px;
+}
+  .nav-tabs>li.active>a h4 {
+    font-size: 13px;
+}
+
+.text-capitalize {
+    font-size: 12px;
+}
+
+.tab-content {
+    padding: 15px 10px;
+}
+
+.process-left p, .process-right p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.phase1, .phase2, .phase3, .phase4 {
+    width: 100%;
+    padding: 20px;
+}
+
+.inner-title {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.inner-heading span {
+    font-size: 15px;
+}
+
+.membersImg {
+    width: 100%;
+}
+
+.attributes img{
+  width: 100%;
+}
+
+.attributes span {
+    top: 15px;
+    left: 20px;
+}
+
+.attributes-title {
+    font-size: 18px;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.test-arrow {
+  display: none;
+}
+
+.inner-testimonials img {
+    width: 50%;
+}
+
+.test-bg {
+    padding: 20px;
+}
+
+.test-Title {
+    font-size: 16px;
+}
+
+p, .test-bg span{
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.contact-form {
+    width: 100%;
 }
 
 }
@@ -1084,17 +1284,18 @@ section {
 }
 
 .member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
-.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14{
-  height: 215px;
+.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
+.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30{
+  height: 166px;
 }
 
 .member-name b {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .member-name span {
     font-size: 11px;
-    line-height: 16px;
     display: block;
 }
 
@@ -1118,8 +1319,10 @@ section {
 }
 
 .member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
-.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14{
-  height: 160px;
+.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
+.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30{
+  height: 124px;
 }
 
 .member-name b {
@@ -1142,9 +1345,45 @@ section {
 
 @media (max-width:350px) {
 
-.member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7, .member-pic8, .member-pic9,
-.member-pic10,.member-pic11, .member-pic12, .member-pic13 {
+.member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
+.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
+.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30 {
     height: 260px;
+}
+
+.innerPages {
+    margin-top: 64px;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+header_social {
+    top: 21px;
+    right: 64px;
+    padding-right: 8px;
+}
+
+.right_menu, .closebtn {
+    top: 14px;
+}
+
+}
+
+@media (min-width:0px) and (max-width:414px){
+
+.col-sm-20{
+  width: 49%;
+  padding: 0 5px;
+}
+
+.member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
+.member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
+.member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30 {
+    height: 120px;
 }
 
 }
