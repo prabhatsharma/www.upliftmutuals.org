@@ -57,11 +57,11 @@ h3 {
 }
 
 .btn.btn-primary:hover {
-  background-color: #017fb5;
+  background-color: #3963ac;
 }
 
 .uttam-btn{
-  background-color: #017fb5;
+  background-color: #3963ac;
   border-radius: 5px;
   padding: 10px 20px;
   color: #fff;
@@ -73,7 +73,7 @@ h3 {
 }
 
 .uttam-btn:hover, .uttam-btn:active, .uttam-btn:focus{
-  background-color: #089db9;
+  background-color: #3687ff;
   color: #fff;
 }
 
@@ -173,9 +173,9 @@ section {
     top: 68%;
     left: 40px;
     /* background-color: rgba(2,46,54,.6); */
-    background-color: rgba(46, 49, 65, 0.6);
-    width: 70%;
-    border-left: 8px solid #089db9;
+    background-color: rgba(29, 47, 72, 0.79);
+    width: 60%;
+    border-left: 8px solid #d9101b;
     text-align: left;
     vertical-align: middle;
     padding: 20px 40px;
@@ -183,7 +183,7 @@ section {
 
 #home-slider .caption h1{
   color: #fff;
-  font-size: 45px;
+  font-size: 28px;
   font-weight: 700;
   margin: 0 0 10px 0;
   padding: 0;
@@ -315,7 +315,7 @@ section {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #089db9;
+  background-color: #3687ff;
   cursor: pointer;
   padding: 13px 10px;
 }
@@ -337,18 +337,19 @@ section {
   /* width: 300px;  */
   text-align: right;
   margin: 44px 21px 30px 0px;
-  /* background-color: #089db9; */
+  /* background-color: #3687ff; */
   /* padding: 30px; */
 }
 
 .sidenav {
     height: 0;
-    width: 235px;
+    width: 300px;
     position: fixed;
     z-index: 999;
     top: 0;
     right: 0;
-    background-color: rgba(46, 49, 65, 0.8);
+    /* background-color: rgba(46, 49, 65, 0.8); */
+    background-color: rgba(29, 47, 72, 0.8);
     overflow-x: hidden;
     transition: 0.6s;
     margin-top: 26px;
@@ -373,7 +374,7 @@ section {
     color: #fff;
     display: block;
     transition: 0.3s;
-    border-right: 3px solid #089db9;
+    border-right: 3px solid #3687ff;
     position: relative;
 }
 
@@ -400,7 +401,7 @@ section {
 .sidenav a span{
   position: absolute;
   font-size: 14px;
-  color: #089db9;
+  color: #3687ff;
   padding: 0;
   display: inline-block;
   position: absolute;
@@ -453,8 +454,10 @@ section {
 }
 
 .caption1, .caption2 {
-    background-color: rgba(46, 49, 65, 0.6);
-    border-left: 8px solid #089db9;
+    background-color: rgba(29, 47, 72, 0.79);
+    border-left: 8px solid #d9101b;
+    /* background-color: rgba(46, 49, 65, 0.6);
+    border-left: 8px solid #3687ff; */
     text-align: left;
     vertical-align: middle;
     padding: 20px 40px;
@@ -498,7 +501,7 @@ section {
 }
 
 .black_button:hover, .white_button:hover{
-  background-color: #089db9;
+  background-color: #3687ff;
   color: #fff;
   border: 2px solid #fff;
 }
@@ -556,7 +559,7 @@ section {
 }
 
 .footer_menu ul li a:hover {
-  color: #089db9;
+  color: #3687ff;
   text-decoration: underline;
 }
 
@@ -705,7 +708,7 @@ section {
 .process-left b, .process-right b{
   display: block;
   font-size: 18px;
-  color: #089db9;
+  color: #3687ff;
   margin-bottom: 10px;
 }
 
@@ -753,7 +756,7 @@ section {
 }
 
 .nav-tabs>li.active>a h4{
-  color: #089db9;
+  color: #3687ff;
   font-weight: bold;
   /* font-size: 16px; */
 }
@@ -779,7 +782,7 @@ section {
 .inner-title{
   font-size: 22px;
     font-weight: bold;
-    color: #017fb5;
+    color: #3963ac;
     margin-bottom: 15px;
     margin-top: 0;
 }
@@ -826,7 +829,9 @@ section {
 .member-pic0, .member-pic1, .member-pic2, .member-pic3, .member-pic4, .member-pic5, .member-pic6, .member-pic7,
 .member-pic8, .member-pic9, .member-pic10, .member-pic11, .member-pic12, .member-pic13, .member-pic14, .member-pic15,
 .member-pic16, .member-pic17, .member-pic18, .member-pic19, .member-pic20, .member-pic21, .member-pic22, .member-pic23,
-.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30{
+.member-pic24, .member-pic25, .member-pic26, .member-pic27, .member-pic28, .member-pic29, .member-pic30, .member-pic31, 
+.member-pic32, .member-pic33, .member-pic34, .member-pic35, .member-pic36, .member-pic37, .member-pic38,  .member-pic39, 
+.member-pic40, .member-pic41, .member-pic42{
   background-repeat: no-repeat;
   top: 0;
   left: 0;
@@ -870,6 +875,18 @@ section {
 .member-pic28 {background-image: url(../images/member-28.jpg);}
 .member-pic29 {background-image: url(../images/member-29.jpg);}
 .member-pic30 {background-image: url(../images/member-30.jpg);}
+.member-pic31 {background-image: url(../images/member-31.jpg);}
+.member-pic32 {background-image: url(../images/member-32.jpg);}
+.member-pic33 {background-image: url(../images/member-33.jpg);}
+.member-pic34 {background-image: url(../images/member-34.jpg);}
+.member-pic35 {background-image: url(../images/member-35.jpg);}
+.member-pic36 {background-image: url(../images/member-36.jpg);}
+.member-pic37 {background-image: url(../images/member-37.jpg);}
+.member-pic38 {background-image: url(../images/member-38.jpg);}
+.member-pic39 {background-image: url(../images/member-39.jpg);}
+.member-pic40 {background-image: url(../images/member-40.jpg);}
+.member-pic41 {background-image: url(../images/member-41.jpg);}
+.member-pic42 {background-image: url(../images/member-42.jpg);}
 
 .team-members:hover > .member-pic10 {background-image: url(../images/member-10-1.jpg);}
 .team-members:hover > .member-pic12 {background-image: url(../images/member-12-1.jpg);}
@@ -884,6 +901,7 @@ section {
 .team-members2:hover > .member-pic22 {background-image: url(../images/member-22-1.jpg);}
 .team-members:hover > .member-pic23 {background-image: url(../images/member-23-1.jpg);}
 .team-members2:hover > .member-pic26 {background-image: url(../images/member-26-1.jpg);}
+.team-members2:hover > .member-pic38 {background-image: url(../images/member-38-1.jpg);}
 
 .member-name{
   padding: 10px 10px;
@@ -947,7 +965,7 @@ section {
 }
 
 .test-Title{
-  color: #017fb5;
+  color: #3963ac;
   font-size: 18px;
   margin-bottom: 10px;
   display: block;
@@ -1010,7 +1028,7 @@ section {
 }
 
 .contact-submit{
-  background-color: #089db9;
+  background-color: #3687ff;
   color: #fff;
   padding: 8px 30px;
   font-weight: bold;
@@ -1023,11 +1041,117 @@ section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+.client-logo, .client-logo2{
+  width: 195px;
+  border: 2px solid #efefef;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+/* .client-logo2{
+  width: 200px;
+} */
+
+/*************************
+********mutuals for childrens CSS*****
+**************************/
+
+.securing{
+  background-color: #f1f1f1;
+  padding: 15px 25px;
+  margin-top: 30px;
+}
+
+.future-title{
+  width: 20%;
+  float: left;
+}
+
+.future-title h4{
+  font-size: 32px;
+  text-align: left;
+  padding-right: 25px;
+  color: #d9101b;
+  margin: 40px 0;
+}
+
+.future-title b{
+  color: #3963ac;
+}
+
+.future-text{
+  width: 80%;
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 25px;
+  float: left;
+  text-align: left;
+  border-left: 1px dotted #888;
+}
+
+.outcome{
+  width: 65%;
+  float: left;
+  padding: 15px 25px;
+  background-color: #d9101b;
+  color: #fff;
+  text-align: left;
+  min-height: 170px;
+}
+
+.outcome b, .goals b{
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.goals{
+  width: 35%;
+  float: left;
+  padding: 15px 25px;
+  background-color: #3963ac;
+  color: #fff;
+  text-align: left;
+  min-height: 170px;
+}
+
+.module-txt{
+  font-size: 16px;
+}
+
+.outcome ul, .goals ul {
+  padding-left: 20px;
+}
+
+.mission-txt {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #d9101b;
+}
 
 /*************************
 ********responsive CSS*****
 **************************/
 @media screen and (min-width:0px) and (max-width:767px){
+
+.securing{
+  padding: 15px 15px;
+}
+
+.future-title{
+  width: 25%;
+}
+
+.future-title h4{
+  font-size: 18px;
+}
+
+.future-text{
+  width: 75%;
+  font-size: 14px;
+}
 
 .navbar-brand img {
   width: 130px;
@@ -1081,7 +1205,7 @@ section {
     top: 45%;
     left: 15px;
     width: 90%;
-    border-left: 5px solid #089db9;
+    border-left: 5px solid #3687ff;
     padding: 0px 15px;
 }
 
@@ -1100,7 +1224,7 @@ section {
 }
 
 .caption1, .caption2 {
-    border-left: 5px solid #089db9;
+    border-left: 5px solid #3687ff;
     padding: 0px 15px;
 }
 
@@ -1297,6 +1421,13 @@ p, .test-bg span{
 .member-name span {
     font-size: 11px;
     display: block;
+}
+
+#home-slider .caption{
+  position: absolute;
+    top: 65%;
+    width: 65%;
+    padding: 15px 30px;
 }
 
 }
